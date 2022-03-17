@@ -64,7 +64,7 @@ Feel free to add me to your groups.**
                 [
                     InlineKeyboardButton(
                         "🔎 How to Use? Commands Menu.",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        callback_data="cbcmds",
                     )
                 ], 
                 [            
@@ -73,7 +73,7 @@ Feel free to add me to your groups.**
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Add me to your Group", url=f"https://t.me/Singing_music_Idol"),
+                        "✚ Add me to your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ],
                 [
                     InlineKeyboardButton(
