@@ -53,12 +53,11 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgQAAxkBAAEECP1hoQ3WiZmIgZ1M6zpI4tagFYi5AQACcQsAArp60VE-Obmr9D4hkiIE")
     await message.reply_text(
-        f"""✨ **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ᴀɴᴅ ᴠɪᴅᴇᴏ ᴏɴ ɢʀᴏᴜᴘs ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ's ᴠɪᴅᴇᴏ ᴄʜᴀᴛs!**
+        f"""**Hello, My name is Yukki.
 
-💡 **ғɪɴᴅ ᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ʙᴏᴛ's ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ » 📚 ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ!**
+I'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.
 
-🔖 **🔖 ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ, ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ » ❓ ʙᴀsɪᴄ ɢᴜɪᴅᴇ ʙᴜᴛᴛᴏɴ!**
+Feel free to add me to your groups.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -70,7 +69,7 @@ async def start_(client: Client, message: Message):
                 ], 
                 [            
                     InlineKeyboardButton("📨 Support", callback_data="cbcmds"),
-                    InlineKeyboardButton("📨 Channel", url=f"https://t.me/Xmartperson"),               
+                    InlineKeyboardButton("📨 Channel", url=f"https://t.me/THE_BLAZE_NETWORK"),               
                 ],
                 [
                     InlineKeyboardButton(
@@ -78,15 +77,15 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👤 Bot Owner", url=f"https://t.me/Rockerz_support"
+                        "👤 Bot Owner", url=f"https://t.me/OFFICIAL_AFK_xD"
                     ),
                     InlineKeyboardButton(
-                        "💡 Git Repo", url=f"https://t.me/Rockerz_updates"                  
+                        "💡 Git Repo", url=f"https://t.me/blaze_support"                  
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "✳️ ChatZone ✳️", url=f"https://t.me/UNIQUE_SOCIETY")
+                        "✳️ ChatZone ", url=f"https://t.me/UNIQUE_SOCIETY")
 
                 ],
             ]
