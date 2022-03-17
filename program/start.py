@@ -90,7 +90,6 @@ Feel free to add me to your groups.**
                 ],
             ]
         ),
-        disable_web_page_preview=True,
     )
 
 
