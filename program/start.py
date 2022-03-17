@@ -73,15 +73,14 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Add me to your Group", url=f"https://t.me/Singing_music_Idol"
-            ],
+                        "✚ Add me to your Group", url=f"https://t.me/Singing_music_Idol"),
+                ],
                 [
                     InlineKeyboardButton(
                         "乂ʙᴏᴛ ɢʀᴏᴜᴘ乂", url=f"https://t.me/Rockerz_support"
                     ),
                     InlineKeyboardButton(
-                        "乂ʙᴏᴛ ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_updates"
-                    ),
+                        "乂ʙᴏᴛ ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_updates"                  
                     )
                 ],
             ]
