@@ -78,11 +78,16 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂ʙᴏᴛ ɢʀᴏᴜᴘ乂", url=f"https://t.me/Rockerz_support"
+                        "👤 Bot Owner", url=f"https://t.me/Rockerz_support"
                     ),
                     InlineKeyboardButton(
-                        "乂ʙᴏᴛ ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_updates"                  
-                    )
+                        "💡 Git Repo", url=f"https://t.me/Rockerz_updates"                  
+                    ),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "✳️ ChatZone ✳️", url=f"https://t.me/UNIQUE_SOCIETY")
+
                 ],
             ]
         ),
