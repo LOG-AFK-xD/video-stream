@@ -67,7 +67,8 @@ async def start_(client: Client, message: Message):
                         "🔎 How to Use? Commands Menu.",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
-                ],             
+                ], 
+                [            
                     InlineKeyboardButton("📨 Support", callback_data="cbcmds"),
                     InlineKeyboardButton("📨 Channel", url=f"https://t.me/Xmartperson"),               
                 ],
