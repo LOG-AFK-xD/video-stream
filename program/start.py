@@ -64,15 +64,17 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "乂ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ乂",
+                        "🔎 How to Use? Commands Menu.",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
+                ],             
+                    InlineKeyboardButton("📨 Support", callback_data="cbcmds"),
+                    InlineKeyboardButton("📨 Channel", url=f"https://t.me/Xmartperson"),               
                 ],
-                [InlineKeyboardButton("乂ʙᴀsɪᴄ ɢᴜɪᴅᴇ乂", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("乂ᴄᴏᴍᴍᴀɴᴅs乂", callback_data="cbcmds"),
-                    InlineKeyboardButton("乂ᴄʀᴇᴀᴛᴏʀ乂", url=f"https://t.me/Xmartperson"),
-                ],
+                    InlineKeyboardButton(
+                        "✚ Add me to your Group", url=f"https://t.me/Singing_music_Idol"
+            ],
                 [
                     InlineKeyboardButton(
                         "乂ʙᴏᴛ ɢʀᴏᴜᴘ乂", url=f"https://t.me/Rockerz_support"
@@ -80,10 +82,6 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         "乂ʙᴏᴛ ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_updates"
                     ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"
                     )
                 ],
             ]
