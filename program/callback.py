@@ -13,7 +13,7 @@ from config import (
 
 
 @Client.on_callback_query(filters.regex("cbstart"))
-async def cbstart(_, query: CallbackQuery):
+async def start(_, query: CallbackQuery):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/f3a0b5b6c64940a1fbb22.jpg",
         caption=f"""**Hello, My name is Log Afk Official Bot.
