@@ -52,8 +52,8 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
-        caption=f"""**Hello, My name is Yukki.
+        photo=f"https://telegra.ph/file/f3a0b5b6c64940a1fbb22.jpg",
+        caption=f"""**Hello, My name is Log Afk official Bot.
 
 I'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.
 
