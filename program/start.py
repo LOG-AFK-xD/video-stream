@@ -68,7 +68,7 @@ Feel free to add me to your groups.**
                     )
                 ], 
                 [            
-                    InlineKeyboardButton("📨 Support", callback_data="cbcmds"),
+                    InlineKeyboardButton("📨 Support", url=f"https://t.me/BLAZE_SUPPORT"),
                     InlineKeyboardButton("📨 Channel", url=f"https://t.me/THE_BLAZE_NETWORK"),               
                 ],
                 [
@@ -80,7 +80,7 @@ Feel free to add me to your groups.**
                         "👤 Bot Owner", url=f"https://t.me/OFFICIAL_AFK_xD"
                     ),
                     InlineKeyboardButton(
-                        "💡 Git Repo", url=f"https://t.me/blaze_support"                  
+                        "💡 About me", url=f"https://t.me/iTzz_Official"                  
                     ),
                 ],
                 [
@@ -104,9 +104,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("乂ʙᴏᴛ ɢʀᴏᴜᴘ乂", url=f"https://t.me/Rockerz_updates"),
+                InlineKeyboardButton("📨 Support", url=f"https://t.me/TheMafiaSupport"),
                 InlineKeyboardButton(
-                    "乂ʙᴏᴛ ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
+                    "Updates 📨", url=f"https://t.me/TheMafiaNetwork"
                 ),
             ]
         ]
@@ -124,9 +124,9 @@ async def alive(client: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    m_reply = await message.reply_text("ᴘɪɴɢɪɴɢ...")
+    m_reply = await message.reply_text("Pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `ᴘᴏɴɢ!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `Pong!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
