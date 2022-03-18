@@ -15,8 +15,8 @@ from config import (
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4cee546f83f7a9573d329.jpg",
-        caption=f"""**Hello, My name is Yukki.
+        photo=f"https://telegra.ph/file/f3a0b5b6c64940a1fbb22.jpg",
+        caption=f"""**Hello, My name is Log Afk Official Bot.
 
 I'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.
 
@@ -36,7 +36,7 @@ Feel free to add me to your groups.**
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Add me to your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                        "✚ Add me to your Group", url=f"https://t.me/LOG_AFK_OFFICIAL_BOT?startgroup=true"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -72,7 +72,7 @@ async def cbguides(_, query: CallbackQuery):
 
 💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
-📢 __Powered by {BOT_NAME} A.I__""",
+📢 __Powered by- [TheMafiaNetwork](t.me/theMafiaNetwork)__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
         ),
@@ -84,9 +84,9 @@ async def cbcmds(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""✳️ **Hello [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
 
-➪ **Press the button below to read The explanation and see the list of Available commands !**
+➪**Press the button below to read The explanation and see the list of Available commands!**
 
-📢 __Powered by {BOT_NAME} A.I__""",
+📢 __Powered by [TheMafiaNetwork](t.me/theMafiaNetwork) __""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -122,7 +122,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /uptime - show the bot uptime status
 » /alive - show the bot alive info (in group)
 
-⚡️ __Powered by {BOT_NAME} AI__""",
+⚡️ __Powered by- [TheMafiaNetwork](t.me/theMafiaNetwork)__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -144,7 +144,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotjoin - invite the userbot to join group
 » /userbotleave - order userbot to leave from group
 
-📢 __Powered by {BOT_NAME} AI__""",
+📢 __Powered by- [TheMafiaNetwork](t.me/theMafiaNetwork)__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -159,7 +159,7 @@ async def cbsudo(_, query: CallbackQuery):
 » /rmd - clean all downloaded files
 » /leaveall - order userbot to leave from all group
 
-📢 __Powered by {BOT_NAME} AI__""",
+📢 __Powered by- [TheMafiaNetwork](t.me/theMafiaNetwork)__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
