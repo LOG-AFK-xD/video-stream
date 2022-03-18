@@ -73,7 +73,7 @@ Feel free to add me to your groups.**
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Add me to your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                        "✚ Add me to your Group", url=f"https://t.me/LOG_AFK_OFFICIAL_BOT?startgroup=true"),
                 ],
                 [
                     InlineKeyboardButton(
